@@ -18,13 +18,13 @@ To run this application locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/yourusername/elevenlabs-voiceover-generator.git
+   git clone https://github.com/AdrianGeorgeM/Eleven-Labs-Voiceover-Generator-API
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd elevenlabs-voiceover-generator
+   cd Eleven-Labs-Voiceover-Generator-API
    ```
 
 3. Install the project dependencies using npm or yarn:
