@@ -11,6 +11,23 @@ This is a React web application that utilizes the Eleven Labs Voiceover Generato
 - Clear text and audio.
 - Toggle metadata display.
 
+## Future Enhancements
+Here are some potential areas for improvement in this application:
+
+1. **User Authentication:** Incorporate user authentication to enable users to save and manage their voiceover projects securely.
+
+2. **Enhanced Styling:** Elevate the user interface and styling to provide a more polished and visually appealing experience.
+
+3. **Error Handling:** Strengthen error handling mechanisms and offer informative error messages to enhance the user experience.
+
+4. **Additional Voice Settings:** Introduce advanced voice settings, allowing users to fine-tune their voiceovers according to their preferences.
+
+5. **Project History:** Maintain a history of generated voiceovers, enabling users to review and re-download previous projects.
+
+6. **Export Options:** Provide users with the ability to export voiceovers in various formats or share them directly on social media platforms.
+
+7. **Usage Analytics:** Implement analytics to gain insights into user interactions with the application, helping us identify areas for improvement and optimization.
+
 ## Getting Started
 
 To run this application locally, follow these steps:
