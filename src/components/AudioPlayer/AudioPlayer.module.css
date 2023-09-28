@@ -1,0 +1,10 @@
+.audioPlayerContainer {
+	margin: 20px;
+	text-align: center;
+}
+
+audio {
+	width: 100%;
+	max-width: 400px;
+	outline: none;
+}
