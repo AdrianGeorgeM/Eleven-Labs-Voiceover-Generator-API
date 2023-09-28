@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Eleven Labs Voiceover Generator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React web application that utilizes the Eleven Labs Voiceover Generator API. It allows you to generate voiceovers based on text input and provides advanced options for customizing the voiceover.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Select from available models.
+- Choose a voice from the available options.
+- Customize voice settings like pitch and speed.
+- Generate voiceovers from entered text.
+- Clear text and audio.
+- Toggle metadata display.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine:
 
-### `npm test`
+   ```shell
+   git clone https://github.com/yourusername/elevenlabs-voiceover-generator.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
 
-### `npm run build`
+   ```shell
+   cd elevenlabs-voiceover-generator
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the project dependencies using npm or yarn:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```shell
+   npm install
+   # or
+   yarn install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Set up your environment variables:
 
-### `npm run eject`
+   - Create a `.env` file in the project root.
+   - Add your Eleven Labs API key to the `.env` file:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+     ```
+     REACT_APP_ELEVENLABS_API_KEY=your-api-key-here
+     ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```shell
+   npm start
+   # or
+   yarn start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to access the application.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Select a model and a voice from the dropdowns.
+2. Enter the text you want to convert to a voiceover.
+3. Adjust the pitch and speed settings if needed.
+4. Click the "Generate Voiceover" button to create the voiceover.
+5. You can clear the text and audio using the "Clear Text" button.
+6. To show/hide metadata, click the "Show Metadata" or "Hide Metadata" button.
+   
+## Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project relies on the following dependencies:
 
-### Code Splitting
+- React: A JavaScript library for building user interfaces.
+- Eleven Labs Voiceover Generator API: Used to generate voiceovers.
+- Other dependencies for components and state management.
+=
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Thanks to Eleven Labs for providing the The [API](https://docs.elevenlabs.io/api-reference/quick-start/introduction).
+- Inspired by projects that utilize text-to-speech technology.
