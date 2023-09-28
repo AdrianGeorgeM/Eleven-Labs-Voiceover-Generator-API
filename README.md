@@ -80,6 +80,16 @@ To run this application locally, follow these steps:
 5. You can clear the text and audio using the "Clear Text" button.
 6. To show/hide metadata, click the "Show Metadata" or "Hide Metadata" button.
    
+## Future Improvements
+Here are some potential future improvements for this application:
+
+1. User Authentication: Implement user authentication to allow users to save and manage their voiceover projects.
+2. Enhanced Styling: Improve the user interface and styling for a more polished look.
+3. Error Handling: Implement more robust error handling and provide detailed error messages to users.
+4. Additional Voice Settings: Add more advanced voice settings for users to fine-tune voiceovers.
+5. Project History: Keep a history of generated voiceovers for users to review and re-download.
+6. Export Options: Allow users to export voiceovers in different formats or share them directly to social media.
+7. Usage Analytics: Implement analytics to understand how users interact with the application and identify areas for improvement.
 ## Dependencies
 
 This project relies on the following dependencies:
